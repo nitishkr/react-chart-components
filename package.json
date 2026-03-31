@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:demo": "vite build --outDir demo-dist",
     "preview": "vite preview"
   },
   "peerDependencies": {

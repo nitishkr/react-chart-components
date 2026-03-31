@@ -4,6 +4,15 @@ A lightweight, reusable Highcharts component library for React + TypeScript. Dro
 
 ![React](https://img.shields.io/badge/React-18-blue?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript) ![Highcharts](https://img.shields.io/badge/Highcharts-11-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
+## Live Demo
+
+> **[View Live Demo](https://react-chart-components.vercel.app)**
+
+### Deploy Your Own
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnitishkr%2Freact-chart-components)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/nitishkr/react-chart-components)
+
 ## Components
 
 | Component | Description |
