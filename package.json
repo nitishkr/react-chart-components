@@ -1,0 +1,34 @@
+{
+  "name": "@nitishkr/react-chart-components",
+  "version": "1.0.0",
+  "description": "Lightweight, reusable Highcharts component library for React + TypeScript with auto-resize and dark mode",
+  "author": "Nitish Kumar",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "highcharts": "^11.0.0",
+    "highcharts-react-official": "^3.2.0"
+  },
+  "devDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "highcharts": "^11.4.0",
+    "highcharts-react-official": "^3.2.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  },
+  "keywords": ["react", "charts", "highcharts", "typescript", "dashboard", "data-visualization", "components"]
+}
