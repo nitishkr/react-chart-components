@@ -1,7 +1,12 @@
 import { useMemo } from "react";
 import Highcharts from "highcharts";
+import HighchartsMore from "highcharts/highcharts-more";
+import SolidGauge from "highcharts/modules/solid-gauge";
 import HighchartsReact from "highcharts-react-official";
 import { getThemeColors, DEFAULT_COLORS } from "../hooks/useChartTheme";
+
+HighchartsMore(Highcharts);
+SolidGauge(Highcharts);
 import type { BaseChartProps, Threshold } from "../types";
 
 interface GaugeChartProps extends BaseChartProps {
